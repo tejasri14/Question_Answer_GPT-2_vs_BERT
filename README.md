@@ -2,13 +2,17 @@
 
 Crispin Lobo cvl2106 and Tejasri Kurapati tk2928
 
-# Summery 
+# Summary 
 
 The goal of this project is to compare the performance of BERT and GPT-2  for Question Answer Generation tasks. 
 
 Our objective is to find the model that gives the most intelligible and grammatically accurate answers. We compare the two models qualitatively (intelligibility, grammatically accurate) and quantitatively (exactness Score and F1 score).
 
 The models are pre-trained on SQuAD 2 dataset and fine tuned on CoQA dataset. The performance of GPT-2 and BERT is compared on Factual, Biomedical, and Conversational question answering dataset distribution. 
+
+The GPT_2 folder contains two folder:
+1. Implementaion: Contains all code used in implementaion
+2. Experiments: Contains all performed experiments
 
 # Motivation 
 
