@@ -1,4 +1,4 @@
-# Question Answer GPT-2 vs BERT
+# Question Answer BERT vs. GPT-2
 
 Crispin Lobo cvl2106 and Tejasri Kurapati tk2928
 
