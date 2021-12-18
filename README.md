@@ -1,4 +1,4 @@
-# Question Answer BERT vs. GPT-2
+# Question Answer GPT-2 vs BERT
 
 Crispin Lobo cvl2106 and Tejasri Kurapati tk2928
 
@@ -37,6 +37,7 @@ A lot of work has been done in analyzing the efficiency of BERT in QA context an
 ## BERT:
 1. BERT has 340 million parameters
 2. BERT has 24 layers
+3. The number of self-attention heads in BERT is 16 and the hidden size is 1024.
 
 
 ## GPT-2:
@@ -45,9 +46,6 @@ A lot of work has been done in analyzing the efficiency of BERT in QA context an
 3. Larger batch size of 512 and larger context window of 1024 tokens were used.
 4. Layer normalisation was moved to input of each sub-block and an additional layer normalisation was added after final self-attention block.
 5. At initialisation, the weight of residual layers was scaled by 1/√N, where N was the number of residual layers.
-6. GPT-2 improved the then existing state-of-the-art for 7 out of 8 language modelling datasets in zero shot setting.
-7. GPT-2 showed that training on larger dataset and having more parameters improved the capability of language model to understand tasks 
-8. The paper stated that with increase in the capacity of the model, the performance increased in log-linear fashion.
 
 
 # Datasets
