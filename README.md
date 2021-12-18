@@ -11,10 +11,10 @@ Our objective is to find the model that gives the most intelligible and grammati
 The models are pre-trained on SQuAD 2 dataset and fine tuned on CoQA dataset. The performance of GPT-2 and BERT is compared on Factual, Biomedical, and Conversational question answering dataset distribution. 
 
 The BERT folder contains four files
-1. BERT_qa_finetuning.ipynb
-2. BERT_question_answering_squad_2.ipynb
-3. BERT_evaluation.ipynb
-4. BERT_question_answering_perplexity_evaluation.ipynb
+1. BERT_qa_finetuning.ipynb - Contains all code for fine tuning BERT with CoQA
+2. BERT_question_answering_squad_2.ipynb - Contains all code to implement question answers
+3. BERT_evaluation.ipynb - Contains all code for evaluation
+4. BERT_question_answering_perplexity_evaluation.ipynb - Contains code to calculate perplexity
 
 
 The GPT_2 folder contains two folder
@@ -28,6 +28,12 @@ With the growing dependency on chatbots to make information retrieval easy, it i
 Also, with the growing amount of digitized information, having a machine interpret a question and give you answers for it in real-time has lots of applications in the business, legal, healthcare, and entertainment domain. 
 
 In this project, we seek to compare two question-answering models to understand which one is better in a conversational question-answering setting.
+
+# Example commands to execute the code 
+
+1. Download the zip file of the repo from https://github.com/tejasri14/Question_Answer_GPT-2_vs_BERT
+2. From the repo, upload BERT_question_answering_squad_2.ipynb and GPT_2_question_answering_squad_2.ipynb
+3. Run the notebook 
 
 # Background Work
 
