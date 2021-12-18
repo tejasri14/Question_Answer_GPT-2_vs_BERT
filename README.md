@@ -32,6 +32,24 @@ The main caveat in Question Answering models is to make the answers more intelli
 
 A lot of work has been done in analyzing the efficiency of BERT in QA context and it has been proven to be one of the best transformer models for QA. This is also addressed in the official BERT paper. Very little is known about GPT-2 for QA. Though the official paper suggests that GPT-2 is not the best models to be used for QA, we try fine-tuning GPT-2 on CoQA dataset to see if this helps GPT-2 perform better in QA setting
 
+# Model Architecture
+
+## BERT:
+1. BERT has 340 million parameters
+2. BERT has 24 layers
+
+
+## GPT-2:
+1. GPT-2 has 1.5 billion parameters which 10 times more than GPT-1(117M).
+2. GPT-2 had 48 layers and used 1600 dimensional vectors for word embedding.
+3. Larger batch size of 512 and larger context window of 1024 tokens were used.
+4. Layer normalisation was moved to input of each sub-block and an additional layer normalisation was added after final self-attention block.
+5. At initialisation, the weight of residual layers was scaled by 1/√N, where N was the number of residual layers.
+6. GPT-2 improved the then existing state-of-the-art for 7 out of 8 language modelling datasets in zero shot setting.
+7. GPT-2 showed that training on larger dataset and having more parameters improved the capability of language model to understand tasks 
+8. The paper stated that with increase in the capacity of the model, the performance increased in log-linear fashion.
+
+
 # Datasets
 
 ### CoQA 
