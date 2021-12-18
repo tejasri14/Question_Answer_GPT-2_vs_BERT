@@ -1,4 +1,4 @@
-# Question Answer GPT-2 vs BERT
+# Question Answer BERT and GPT-2
 
 Crispin Lobo cvl2106 and Tejasri Kurapati tk2928
 
@@ -10,9 +10,16 @@ Our objective is to find the model that gives the most intelligible and grammati
 
 The models are pre-trained on SQuAD 2 dataset and fine tuned on CoQA dataset. The performance of GPT-2 and BERT is compared on Factual, Biomedical, and Conversational question answering dataset distribution. 
 
-The GPT_2 folder contains two folder:
-1. Implementaion: Contains all code used in implementaion
-2. Experiments: Contains all performed experiments
+The BERT folder contains four files
+1. BERT_qa_finetuning.ipynb
+2. BERT_question_answering_squad_2.ipynb
+3. BERT_evaluation.ipynb
+4. BERT_question_answering_perplexity_evaluation.ipynb
+
+
+The GPT_2 folder contains two folder
+1. Implementaion - Contains all code used in implementaion
+2. Experiments -  Contains all performed experiments
 
 # Motivation 
 
