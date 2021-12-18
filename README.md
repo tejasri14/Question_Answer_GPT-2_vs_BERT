@@ -74,5 +74,44 @@ We use the Huggingface’s Pytorch implementation of GPT-2.
 
 <img width="446" alt="Screen Shot 2021-12-17 at 11 11 27 PM" src="https://user-images.githubusercontent.com/40158216/146628469-29e48011-9389-4844-9c16-3faf012ae385.png">
 
+# Outputs
+
+<img width="615" alt="Screen Shot 2021-12-17 at 11 18 28 PM" src="https://user-images.githubusercontent.com/40158216/146628658-94ff951a-0568-42c8-9b04-774d597f37e6.png">
+
+
+<img width="769" alt="Screen Shot 2021-12-17 at 11 18 42 PM" src="https://user-images.githubusercontent.com/40158216/146628664-b91beb8c-1d1f-4123-8064-763531ba330e.png">
+
+# Qualitative Evaluation 
+
+BERT
+The model is not able to give Human like response. It returns the statements that are present in the context. 
+The model is able to identify questions whose answers are not in the context
+If a question has a spelling mistake, the model is not able to answer the question.
+The model is able to understand the relation between different sentences in the context and answer questions
+
+GPT-2
+From the observations, we can say that GPT-2 does not do a good job in understanding the context and cannot be used for QA.
+
+# Quantitative Evaluation 
+
+### BERT 
+
+Exact score -  79.97
+
+F1 score - 83.01
+
+Perplexity - 2.7365
+
+### GPT-2
+
+Exact score -  4.1
+
+F1 score - 15.03
+
+Perplexity - 51.187
+
+
+
+
 
 
