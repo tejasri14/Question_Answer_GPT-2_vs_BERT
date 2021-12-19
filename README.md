@@ -21,19 +21,20 @@ The GPT_2 folder contains two folder
 1. Implementaion - Contains all code used in implementaion
 2. Experiments -  Contains all performed experiments
 
+
+# Example commands to execute the code 
+
+1. Download the zip file of the repo from https://github.com/tejasri14/Question_Answer_GPT-2_vs_BERT
+2. From the repo, upload BERT_question_answering_squad_2.ipynb and GPT_2_question_answering_squad_2.ipynb
+3. Run the notebook
+
 # Motivation 
 
 With the growing dependency on chatbots to make information retrieval easy, it is important that we make the experience user friendly. 
 
 Also, with the growing amount of digitized information, having a machine interpret a question and give you answers for it in real-time has lots of applications in the business, legal, healthcare, and entertainment domain. 
 
-In this project, we seek to compare two question-answering models to understand which one is better in a conversational question-answering setting.
-
-# Example commands to execute the code 
-
-1. Download the zip file of the repo from https://github.com/tejasri14/Question_Answer_GPT-2_vs_BERT
-2. From the repo, upload BERT_question_answering_squad_2.ipynb and GPT_2_question_answering_squad_2.ipynb
-3. Run the notebook 
+In this project, we seek to compare two question-answering models to understand which one is better in a conversational question-answering setting. 
 
 # Background Work
 
